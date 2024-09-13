@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const mongoDB = "mongodb+srv://Mill:212777550@cluster0.pvlc3.mongodb.net/livraria"
+const mongoDB = "mongodb+srv://usuario:senha@cluster0.pvlc3.mongodb.net/livraria"
 
 async function main() {
     await mongoose.connect(mongoDB);
